@@ -6,3 +6,5 @@ router.get('/', async (req, res) => {
 
    return res.json(users);
 });
+
+module.exports = router;

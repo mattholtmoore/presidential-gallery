@@ -10,7 +10,9 @@ router.get('/', async (req, res) => {
 
 router.get('/details/:id', withAuth, async (req, res) => {
     const { id } = req.params;
-    const allDetailedPresData = await President.findAll({});
+    const allDetailedPresData = await President.findOne({});
 
    return res.json(allDetailedPresData);
 });
+
+module.exports = router;
