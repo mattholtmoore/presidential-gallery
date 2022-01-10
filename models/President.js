@@ -11,11 +11,11 @@ President.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    president_name: {
+    name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    party_name: {
+    party: {
       type: DataTypes.STRING,
       allowNull: false,
     },
@@ -27,11 +27,11 @@ President.init(
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    president_number: {
+    number: {
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    president_image: {
+    image: {
       type: DataTypes.TEXT,
       allowNull: false,
     },

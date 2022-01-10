@@ -1,0 +1,370 @@
+[
+  {
+    "name": "George Washington",
+    "party": "Federalist",
+    "description": "George Washington was born into a mildly prosperous Virginia farming family in 1732. After his father died when George was eleven, George's mother, Mary, a tough and driven woman, struggled to hold their home together with the help of her two sons from a previous marriage. Although he never received more than an elementary school education, young George displayed a gift for mathematics. This knack for numbers combined with his quiet confidence and ambition caught the attention of Lord Fairfax, head of one of the most powerful families in Virginia. While working for Lord Fairfax as a surveyor at the age of sixteen, the young Washington traveled deep into the American wilderness for weeks at a time.",
+    "years_served": 8,
+    "number": 1,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/01_george_washington.jpg"
+  },
+  {
+    "name": "John Adams",
+    "party": "Federalist",
+    "description": "Before becoming President in 1797, John Adams built his reputation as a blunt-speaking man of independent mind. A fervent patriot and brilliant intellectual, Adams served as a delegate from Massachusetts to the Continental Congress between 1774 and 1777, as a diplomat in Europe from 1778 to 1788, and as vice president during the Washington administration.",
+    "years_served": 8,
+    "number": 2,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/02_john_adams.jpg"
+  },
+  {
+    "name": "Thomas Jefferson",
+    "party": "Democratic-Republican",
+    "description": "Thomas Jefferson, the author of the Declaration of Independence, spent his childhood roaming the woods and studying his books on a remote plantation in the Virginia Piedmont. Thanks to the prosperity of his father, Jefferson had an excellent education. After years in boarding school, where he excelled in classical languages, Jefferson enrolled in William and Mary College in his home state of Virginia, taking classes in science, mathematics, rhetoric, philosophy, and literature. He also studied law, and by the time he was admitted to the Virginia bar in April 1767, many considered him to have one of the nation's best legal minds.",
+    "years_served": 8,
+    "number": 3,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/03_thomas_jefferson.jpg"
+  },
+  {
+    "name": "James Madison",
+    "party": "Democratic-Republican",
+    "description": "Like his close friend Thomas Jefferson, James Madison came from a prosperous family of Virginia planters, received an excellent education, and quickly found himself drawn into the debates over independence. In 1776, he became a delegate to the revolutionary Virginia Convention, where he worked closely with Thomas Jefferson to push through religious freedom statutes, among other liberal measures. The youngest member of the Continental Congress, Madison was small in stature. His soft spoken, shy demeanor was a foil for his brilliant persistence in advocating his political agenda. Madison emerged as a respected leader of the congress, known for his hard work and careful preparation.",
+    "years_served": 8,
+    "number": 4,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/04_james_madison.jpg"
+  },
+  {
+    "name": "James Monroe",
+    "party": "Democratic-Republican",
+    "description": "James Monroe was the last American President of the “Virginia Dynasty”—of the first five men who held that position, four hailed from Virginia. Monroe also had a long and distinguished public career as a soldier, diplomat, governor, senator, and cabinet official. His presidency, which began in 1817 and lasted until 1825, encompassed what came to be called the \\\"Era of Good Feelings.\\\" One of his lasting achievements was the Monroe Doctrine, which became a major tenet of U.S. foreign policy in the Western Hemisphere.",
+    "years_served": 8,
+    "number": 5,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/05_james_monroe.jpg"
+  },
+  {
+    "name": "John Quincy Adams",
+    "party": "Federalist, Democratic-Republican, Whig",
+    "description": "Reared for public service, John Quincy Adams became one of the nation's preeminent secretaries of state but proved the wrong man for the presidency. Aloof, stubborn, and ferociously independent, he failed to develop the support he needed in Washington, even among his own party. Faced throughout his term with organized opposition from the Democrats—who were committed to limiting Adams to a single term and replacing him with Andrew Jackson—Adams refused to forge the political alliances necessary to push his ideas into policy. His father, President John Adams, had also ignored the political side of the office and served only one term. History repeated itself with his son: John Quincy Adams lost his reelection bid to Jackson in 1828.",
+    "years_served": 4,
+    "number": 6,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/06_john_quincy_adams.jpg"
+  },
+  {
+    "name": "Andrew Jackson",
+    "party": "Democrat",
+    "description": "Andrew Jackson, seventh President of the United States, was the dominant actor in American politics between Thomas Jefferson and Abraham Lincoln. Born to obscure parents and orphaned in youth, he was the first \\\"self-made man\\\" and the first westerner to reach the White House. He became a democratic symbol and founder of the Democratic Party, the country's most venerable political organization. During his two-term presidency, he expanded executive powers and transformed the President's role from chief administrator to popular tribune.",
+    "years_served": 8,
+    "number": 7,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/07_andrew_jackson.jpg"
+  },
+  {
+    "name": "Martin Van Buren",
+    "party": "Democrat",
+    "description": "Martin Van Buren said that the two happiest days of his life were his entrance into the office of President and his surrender of the office. While his political opponents were glad to see him go—they nicknamed him “Martin Van Ruin”—many Americans were not. Even though he lost the 1840 presidential election, Van Buren received 40,000 more votes than he had in his 1836 victory. In subsequent years, historians have come to regard Van Buren as integral to the development of the American political system.",
+    "years_served": 4,
+    "number": 8,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/08_martin_van_buren.jpg"
+  },
+  {
+    "name": "William Henry Harrison",
+    "party": "Whig",
+    "description": "William Henry Harrison served the shortest time of any American President—only thirty-two days. He also was the first President from the Whig Party. He had won his nickname, “Old Tip,” as the tough commanding general of American forces who defeated hostile Native Americans at the Battle of Tippecanoe in the Ohio River Valley in 1811.",
+    "years_served": 1,
+    "number": 9,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/09_william_henry_harrison.jpg"
+  },
+  {
+    "name": "John Tyler",
+    "party": "Democrat, Whig",
+    "description": "John Tyler signaled the last gasp of the Old Virginia aristocracy in the White House. Born a few years after the American Revolution in 1790 to an old family from Virginia's ruling class, Tyler graduated from the College of William and Mary at the age of seventeen, studied law, and went to work for a prestigious law firm in Richmond. At twenty-one, Tyler had used his father's contacts to gain a seat in the Virginia House of Delegates where he began immediately fighting the Bank of the United States, which he opposed as a broadening of nationalist power. After serving an uneventful stint in the military during the War of 1812, Tyler won election to the House of Representatives and quickly became a Washington insider, seen frequently at Dolly Madison's posh parties.",
+    "years_served": 4,
+    "number": 10,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/10_john_tyler.jpg"
+  },
+  {
+    "name": "James Knox Polk",
+    "party": "Democrat",
+    "description": "Under James Knox Polk, the United States grew by more than a million square miles, adding territory that now composes the states of Arizona, Utah, Nevada, California, Oregon, Idaho, Washington, much of New Mexico, and portions of Wyoming, Montana, and Colorado. More than any other President, Polk pursued \\\"Manifest Destiny,\\\" a phrase coined by his fellow Jacksonian Democrat, John L. O'Sullivan, to express the conviction that Providence had foreordained the United States to spread its republican institutions across North America. He accomplished every major goal that he set for himself as President and in the process successfully waged war against Mexico, obtaining for the United States most of its present boundaries as a nation.",
+    "years_served": 4,
+    "number": 11,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/11_james_k_polk.jpg"
+  },
+  {
+    "name": "Zachary Taylor",
+    "party": "Whig",
+    "description": "At the time he became President, Zachary Taylor was the most popular man in America, a hero of the Mexican-American War. However, at a time when Americans were confronting the explosive issue of slavery, he was probably not the right man for the job. Taylor was a wealthy slave owner who held properties in the plantation states of Louisiana, Kentucky, and Mississippi. During his brief time in office—he died only sixteen months after his election—his presidency foundered over the question of whether the national government should permit the spread of slavery to the present-day states of California, New Mexico, and Utah, then newly won from Mexico. His sudden death put Vice President Millard Fillmore into the White House, and Fillmore promptly threw his support behind the Compromise of 1850, canceling out much of the impact of Taylor's presidency.",
+    "years_served": 4,
+    "number": 12,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/12_zachary_taylor.jpg"
+  },
+  {
+    "name": "Millard Fillmore",
+    "party": "Whig",
+    "description": "Born into desperate poverty at the dawn of the nineteenth century, Millard Fillmore climbed to the highest office in the land—and inherited a nation breaking into fragments over the question of slavery. Despite his best efforts, the lines of the future battles of the Civil War were drawn, and Fillmore found himself rejected by his own dying party and denied renomination. After almost a quarter of a century out of the White House, he died in New York state in 1874.",
+    "years_served": 4,
+    "number": 13,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/13_millard_filmore.jpg"
+  },
+  {
+    "name": "Franklin Pierce",
+    "party": "Democrat",
+    "description": "Franklin Pierce, the 14th President of the United States, came to office during a period of growing tension between the North and South. A politician of limited ability, Pierce was behind one of the most crucial pieces of legislation in American history. Although he did not author the Kansas-Nebraska Act, he did encourage its passage by Congress. And that piece of legislation set the nation on its path to civil war.",
+    "years_served": 4,
+    "number": 14,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/14_franklin_pierce.jpg"
+  },
+  {
+    "name": "James Buchanan",
+    "party": "Democrat",
+    "description": "In the 1850s, the question of slavery divided the United States. Hopes ran high that the new President, \\\"Old Buck,\\\" might be the man to avert national crisis. He failed entirely. During his administration, the Union broke apart, and when he left office, civil war threatened.",
+    "years_served": 4,
+    "number": 15,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/15_james_buchanan.jpg"
+  },
+  {
+    "name": "Abraham Lincoln",
+    "party": "Whig, Republican",
+    "description": "When Abraham Lincoln was elected President in 1860, seven slave states left the Union to form the Confederate States of America, and four more joined when hostilities began between the North and South. A bloody civil war then engulfed the nation as Lincoln vowed to preserve the Union, enforce the laws of the United States, and end the secession. The war lasted for more than four years with a staggering loss of more than 600,000 Americans dead. Midway through the war, Lincoln issued the Emancipation Proclamation, which freed all slaves within the Confederacy and changed the war from a battle to preserve the Union into a battle for freedom. He was the first Republican President, and Union victory ended forever the claim that state sovereignty superseded federal authority. Killed by an assassin's bullet less than a week after the surrender of Confederate forces, Lincoln left the nation a more perfect Union and thereby earned the admiration of most Americans as the country's greatest President.",
+    "years_served": 4,
+    "number": 16,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/16_abraham_lincoln.jpg"
+  },
+  {
+    "name": "Andrew Johnson",
+    "party": "Democrat, Unionist",
+    "description": "Andrew Johnson gives truth to the saying that in America, anyone can grow up to become President. Born in a log cabin in North Carolina to nearly illiterate parents, Andrew Johnson did not master the basics of reading, grammar, or math until he met his wife at the age of seventeen. The only other man to attain the office of President with so little formal education was Abraham Lincoln. Whereas Lincoln is esteemed as America's greatest President, Johnson, his successor, is ranked as one of the worst.",
+    "years_served": 4,
+    "number": 17,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/17_andrew_johnson.jpg"
+  },
+  {
+    "name": "Ulysses S. Grant",
+    "party": "Republican",
+    "description": "Ulysses S. Grant is best known as the Union general who led the United States to victory over the Confederate States of America during the American Civil War. As a two-term President, he is typically dismissed as weak and ineffective; historians have often ranked Grant's presidency near the bottom in American history. Recently, however, scholars have begun to reexamine and reassess his presidential tenure; recent rankings have reflected a significant rise. ",
+    "years_served": 8,
+    "number": 18,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/18_ulysses_s_grant.jpg"
+  },
+  {
+    "name": "Rutherford Birchard Hayes",
+    "party": "Republican",
+    "description": "Rutherford B. Hayes, America's 19th President, served as chief executive at the end of Reconstruction and the beginning of the modern industrial age. He was well suited to the task, having earned a steadfast reputation for integrity throughout his career as a soldier and a statesman. Upstanding, moral, and honest, Hayes was ironically elected after one of the most lengthy, bitterly disputed, and corrupt presidential elections in American history.",
+    "years_served": 4,
+    "number": 19,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/19_rutherford_b_hayes.jpg"
+  },
+  {
+    "name": "James A. Garfield",
+    "party": "Republican",
+    "description": "James A. Garfield is remembered as one of the four \\\"lost presidents\\\" who served rather uneventfully after the Civil War. Of the four lost Presidents—Hayes, Garfield, Arthur, and Harrison—Garfield is best remembered for his dramatic assassination a mere 100 days after he assumed office.",
+    "years_served": 1,
+    "number": 20,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/20_james_garfield.jpg"
+  },
+  {
+    "name": "Chester Arthur",
+    "party": "Republican",
+    "description": "Chester Arthur was the fifth child of a fervent abolitionist preacher who moved his family from one Baptist parish to the next throughout New York and Vermont. Attending Union College, Arthur showed far more interest in extracurricular activities and political demonstrations than in his studies. As a young man, Arthur worked for one of the most prominent law firms in New York City. He was involved in two cases focusing on African American rights. One involved fugitive slaves while the other centered on segregated streetcars.",
+    "years_served": 4,
+    "number": 21,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/21_chester_a_arthur.jpg"
+  },
+  {
+    "name": "Grover Cleveland",
+    "party": "Democrat",
+    "description": "Stephen Grover Cleveland fell into politics without really trying. In 1881, local businessmen asked Cleveland, then a young lawyer, to run for mayor of Buffalo, New York. He agreed and won the Democratic nomination and the election. As mayor, Cleveland exposed city corruption and earned such a reputation for honesty and hard work that he won the New York gubernatorial race in 1882. Governor Cleveland used his power to take on the Tammany Hall, the political machine based in New York City, even though it had supported him in the election. Within a year, the Democrats were looking to Cleveland as an important new face and pragmatic reformer who might win the presidency in 1884.",
+    "years_served": 8,
+    "number": 22,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/22_grover_cleveland.jpg"
+  },
+  {
+    "name": "Benjamin Harrison",
+    "party": "Republican",
+    "description": "Benjamin Harrison was born in 1833 in North Bend, Ohio, to a prominent family that had a legacy of political activism. After all, he was the grandson of the nation's ninth President, William Henry Harrison. Raised on a farm adjacent to his grandfather's vast estate, Harrison believed he was destined for greatness.",
+    "years_served": 4,
+    "number": 23,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/23_benjamin_harrison.jpg"
+  },
+  {
+    "name": "Grover Cleveland",
+    "party": "Democrat",
+    "description": "Stephen Grover Cleveland fell into politics without really trying. In 1881, local businessmen asked Cleveland, then a young lawyer, to run for mayor of Buffalo, New York. He agreed and won the Democratic nomination and the election. As mayor, Cleveland exposed city corruption and earned such a reputation for honesty and hard work that he won the New York gubernatorial race in 1882. Governor Cleveland used his power to take on the Tammany Hall, the political machine based in New York City, even though it had supported him in the election. Within a year, the Democrats were looking to Cleveland as an important new face and pragmatic reformer who might win the presidency in 1884.",
+    "years_served": 8,
+    "number": 24,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/22_grover_cleveland.jpg"
+  },
+  {
+    "name": "William McKinley",
+    "party": "Republican",
+    "description": "For a long time, William McKinley was considered a mediocre President, a chief executive who was controlled by his political cronies and who was pressured into war with Spain by the press. Recent historians have been kinder to McKinley, seeing him instead as a decisive President who put America on the road to world power. McKinley's difficult foreign policy decisions, especially his policy toward China and his decision to go to war with Spain over Cuban independence, helped the U.S. enter the twentieth century as a new and powerful empire on the world stage.",
+    "years_served": 4,
+    "number": 25,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/25_william_mckinley.jpg"
+  },
+  {
+    "name": "Theodore Roosevelt",
+    "party": "Republican",
+    "description": "Theodore Roosevelt, who came into office in 1901 and served until 1909, is considered the first modern President because he significantly expanded the influence and power of the executive office. From the Civil War to the turn of the twentieth century, the seat of power in the national government resided in the U.S. Congress. Beginning in the 1880s, the executive branch gradually increased its power. Roosevelt seized on this trend, believing that the President had the right to use all powers except those that were specifically denied him to accomplish his goals. As a result, the President, rather than Congress or the political parties, became the center of the American political arena. As President, Roosevelt challenged the ideas of limited government and individualism. In their stead, he advocated government regulation to achieve social and economic justice. He used executive orders to accomplish his goals, especially in conservation, and waged an aggressive foreign policy. He was also an extremely popular President and the first to use the media to appeal directly to the people, bypassing the political parties and career politicians.",
+    "years_served": 8,
+    "number": 26,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/26_theodore_roosevelt.jpg"
+  },
+  {
+    "name": "William Howard Taft",
+    "party": "Republican",
+    "description": "William Howard Taft faced the difficult task as President of living up to the legacy of Theodore Roosevelt. Taft so disappointed his predecessor, former mentor, and friend, that Roosevelt opposed his renomination in 1912 and bolted from the Republican Party to form his own \\\"Bull-Moose\\\" party, creating an opening for Democrat Woodrow Wilson in the 1912 presidential election. Taft's lifelong ambition was to serve as Chief Justice of the United States, to which he was appointed after leaving the presidency. He remains the only man in American history to have gained the highest executive and judicial positions.",
+    "years_served": 4,
+    "number": 27,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/27_william_howard_taft.jpg"
+  },
+  {
+    "name": "Woodrow Wilson",
+    "party": "Democrat",
+    "description": "Woodrow Wilson was one of America's greatest Presidents. His domestic program expanded the role of the federal government in managing the economy and protecting the interests of citizens. His foreign policy established a new vision of America's role in the world. And he helped to make the White House the center of power in Washington. Most historians rank him among the five most important American Presidents, along with Washington, Lincoln, and the two Roosevelts.",
+    "years_served": 8,
+    "number": 28,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/28_woodrow_wilson.jpg"
+  },
+  {
+    "name": "Warren G. Harding",
+    "party": "Republican",
+    "description": "A conservative politician from Ohio, Warren G. Harding had few enemies because he rarely took a firm enough stand on an issue to make any. Who would have suspected that the man to succeed Woodrow Wilson, America's most visionary President, would be a man who saw the President's role as largely ceremonial?",
+    "years_served": 4,
+    "number": 29,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/29_warren_g_harding.jpg"
+  },
+  {
+    "name": "Calvin Coolidge",
+    "party": "party",
+    "description": "A quiet and somber man whose sour expression masked a dry wit, Calvin Coolidge was known as \\\"Silent Cal.\\\" After learning of his ascendancy to the presidency following the death of Warren Harding in 1923, Coolidge was sworn in by his father, a justice of the peace, in the middle of the night and, displaying his famous \\\"cool,\\\" promptly went back to bed.",
+    "years_served": 6,
+    "number": 30,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/30_calvin_coolidge.jpg"
+  },
+  {
+    "name": "Herbert Hoover",
+    "party": "Republican",
+    "description": "Upon accepting the Republican nomination for President in 1928, Herbert Hoover predicted that \\\"We in America today are nearer to the final triumph over poverty than ever before in the history of any land. The poorhouse is vanishing from among us.\\\" Hoover won the presidency that year, but his time in office belied his optimistic assertion. Within eight months of his inauguration, the stock market crashed, signifying the beginning of the Great Depression, the most severe economic crisis the United States had ever known. Rightly or wrongly, Hoover's efforts to combat the Great Depression have defined his presidency and his place in American history.",
+    "years_served": 4,
+    "number": 31,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/31_herbert_hoover.jpg"
+  },
+  {
+    "name": "Franklin Delano Roosevelt",
+    "party": "Democrat",
+    "description": "Faced with the Great Depression and World War II, Franklin D. Roosevelt, nicknamed “FDR,” guided America through its greatest domestic crisis, with the exception of the Civil War, and its greatest foreign crisis. His presidency—which spanned twelve years—was unparalleled, not only in length but in scope. FDR took office with the country mired in a horrible and debilitating economic depression that not only sapped its material wealth and spiritual strength, but cast a pall over its future. Roosevelt's combination of confidence, optimism, and political savvy—all of which came together in the experimental economic and social programs of the \\\"New Deal\\\"—helped bring about the beginnings of a national recovery.",
+    "years_served": 8,
+    "number": 32,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/32_franklin_d_roosevelt.jpg"
+  },
+  {
+    "name": "Harry S. Truman",
+    "party": "Democrat",
+    "description": "Harry S. Truman became President of the United States with the death of Franklin D. Roosevelt on April 12, 1945. During his nearly eight years in office, Truman confronted enormous challenges in both foreign and domestic affairs. Truman's policies abroad, and especially toward the Soviet Union in the emerging Cold War, would become staples of American foreign policy for generations. At home, Truman protected and reinforced the New Deal reforms of his predecessor, guided the American economy from a war-time to a peace-time footing, and advanced the cause of African-American civil rights. Historians now rank Truman among the nation's best Presidents.",
+    "years_served": 8,
+    "number": 33,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/33_harry_s_truman.jpg"
+  },
+  {
+    "name": "Dwight David Eisenhower",
+    "party": "Republican",
+    "description": "Born in Texas and raised in Kansas, Dwight D. Eisenhower was one of America's greatest military commanders and the thirty-fourth President of the United States. Inspired by the example of a friend who was going to the U.S. Naval Academy, Eisenhower won an appointment to the U.S. Military Academy at West Point. Although his mother had religious convictions that made her a pacifist, she did not try to stop Eisenhower from becoming a military officer.",
+    "years_served": 8,
+    "number": 34,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/34_dwight_d_eisenhower.jpg"
+  },
+  {
+    "name": "John F. Kennedy",
+    "party": "Democrat",
+    "description": "John F. Kennedy was born into a rich, politically connected Boston family of Irish-Catholics. He and his eight siblings enjoyed a privileged childhood of elite private schools, sailboats, servants, and summer homes. During his childhood and youth, \\\"Jack\\\" Kennedy suffered frequent serious illnesses. Nevertheless, he strove to make his own way, writing a best-selling book while still in college at Harvard and volunteering for hazardous combat duty in the Pacific during World War II. Kennedy's wartime service made him a hero. After a short stint as a journalist, Kennedy entered politics, serving in the U.S. House of Representatives from 1947 to 1953 and the U.S. Senate from 1953 to 1961.",
+    "years_served": 3,
+    "number": 35,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/35_john_f_kennedy.jpg"
+  },
+  {
+    "name": "Lyndon Baines Johnson",
+    "party": "Democrat",
+    "description": "On November 22, 1963, John F. Kennedy was shot and killed in Dallas, Texas. The event thrust Lyndon Johnson into the presidency. A man widely considered to be one of the most expert and brilliant politicians of his time, Johnson would leave office a little more than five years later as one of the least popular Presidents in American history. The man who had risen from the poor Hill Country of Texas to become the acknowledged leader of the United States Senate and occupant of the Oval Office would return to Texas demoralized and discredited. He died four years later, a few hundred feet from the place of his birth.",
+    "years_served": 6,
+    "number": 36,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/36_lyndon_johnson.jpg"
+  },
+  {
+    "name": "Richard Milhous Nixon",
+    "party": "Republican",
+    "description": "Schoolchildren absorb at least one fact about Richard Milhous Nixon: He was the first and (so far) the only President of the United States to resign the office. Before the spectacular fall, there was an equally spectacular rise. In a half-dozen years, he went from obscurity to a heartbeat from the presidency, winning a congressional race (1946), national prominence in the Alger Hiss spy case (1948), a Senate seat (1950), and the vice presidency (1952). John F. Kennedy interrupted Nixon's ascent in 1960, winning the presidency by the narrowest margin of the twentieth century.",
+    "years_served": 4,
+    "number": 37,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/37_richard_nixon.jpg"
+  },
+  {
+    "name": "Gerald Rudolph Ford",
+    "party": "Republican",
+    "description": "Gerald R. Ford became President of the United States on August 9, 1974, under extraordinary circumstances. Owing to the Watergate scandal, Ford's predecessor, Richard Nixon, had resigned under the threat of congressional impeachment. Ford assumed leadership of a nation whose domestic economy and international prestige—both seemingly sound in the decades after World War II—had deteriorated considerably. Just as important, Watergate, as well as the debacle of the Vietnam War, had profoundly shaken the American public's confidence in its leaders. Gerald Ford stepped into the breach opened up by these converging dynamics and achieved mixed results in addressing the twin problems of economic and geopolitical decline. ",
+    "years_served": 3,
+    "number": 38,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/38_gerald_ford.jpg"
+  },
+  {
+    "name": "James Earl Carter, Jr.",
+    "party": "Democratic",
+    "description": "Jimmy Carter's one-term presidency is remembered for the events that overwhelmed it—inflation, energy crisis, war in Afghanistan, and hostages in Iran. After one term in office, voters strongly rejected Jimmy Carter's honest but gloomy outlook in favor of Ronald Reagan's telegenic optimism. In the past two decades, however, there has been wider recognition that Carter, despite a lack of experience, confronted several huge problems with steadiness, courage, and idealism. Along with his predecessor Gerald Ford, Carter must be given credit for restoring the balance to the constitutional system after the excesses of the Johnson and Nixon \\\"imperial presidency.\\\"",
+    "years_served": 4,
+    "number": 39,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/39_jimmy_carter.jpg"
+  },
+  {
+    "name": "Ronald Wilson Reagan",
+    "party": "Republican",
+    "description": "Ronald Wilson Reagan, the 40th President of the United States, followed a unique path to the White House. After successful careers as a radio sports announcer, Hollywood movie actor, and television host, he turned to politics and was elected governor of California in 1966, serving eight years. He ran unsuccessfully for President in 1968 and 1976, but in 1980, during a time of U.S. economic troubles and foreign policy difficulties, he won the Republican presidential nomination in a contest with George H.W. Bush and others and defeated President Jimmy Carter in the general election.",
+    "years_served": 8,
+    "number": 40,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/40_ronald_reagan.jpg"
+  },
+  {
+    "name": "George Herbert Walker Bush",
+    "party": "Republican",
+    "description": "George Herbert Walker Bush belongs to a political dynasty; he sits in the middle of three generations of politicians, including his father Prescott, a senator from Connecticut; his son Jeb, former governor of Florida; and his son, George Walker, the 43rd President of the United States. In fact, George H. W. and George W. are only the second set of father and son to become President. (John Adams and John Quincy Adams were the first.)",
+    "years_served": 4,
+    "number": 41,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/41_george_hw_bush.jpg"
+  },
+  {
+    "name": "William Jefferson Clinton",
+    "party": "Democrat",
+    "description": "William Jefferson Clinton, the young President from Hope, Arkansas, succeeded where no other Democrat had since Franklin Roosevelt: he was reelected to a second term. Clinton also defied his critics by surviving an array of personal scandals, turning the greatest fiscal deficit in American history into a surplus, effectively using American force to stop the murderous \\\"ethnic cleansing\\\" wars in Bosnia and Kosovo, and presiding over the greatest level of economic prosperity since the early 1960s. He also endured unrelenting personal attacks from the right-wing of the Republican Party, the loss of Congress to the Republicans for the first time in forty years, and a humiliating but unsuccessful impeachment trial by the U.S. Senate. He fashioned himself as a \\\"New Democrat\\\" and has frequently been referred to as the \\\"Comeback Kid.\\\" Few Presidents have both raised more questions about the standing of the presidency and simultaneously presided over a longer period of sustained prosperity.",
+    "years_served": 8,
+    "number": 42,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/42_bill_clinton.jpg"
+  },
+  {
+    "name": "George Walker Bush",
+    "party": "Republican",
+    "description": "George W. Bush, the 43rd President of the United States, led the country during a time of great challenge and change. The terrorist attacks of September 11, 2001, the global war on terror, the war in Iraq, and the economic downtown of 2008 are just some of the major events that Bush had to contend with during his time in office. At different times, President Bush was both the most popular president and one of the least popular presidents in American history, and his administration sparked both passionate defenders and vehement critics. His presidency will continue to be studied and debated for years to come. ",
+    "years_served": 8,
+    "number": 43,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/43_george_w_bush.jpg"
+  },
+  {
+    "name": "Barack Hussein Obama",
+    "party": "Democrat",
+    "description": "Barack Obama was inaugurated as the 44th president of the United States—becoming the first African American to serve in that office—on January 20, 2009. The son of a white American mother and a black Kenyan father, Obama grew up in Hawaii. Leaving the state to attend college, he earned degrees from Columbia University and Harvard Law School. Obama worked as a community organizer in Chicago, where he met and married Michelle LaVaughn Robinson in 1992. Their two daughters, Malia Ann and Natasha (Sasha), were born in 1998 and 2001, respectively. Obama was elected to the Illinois state senate in 1996 and served there for eight years. In 2004, he was elected by a record majority to the US Senate from Illinois and, in February 2007, announced his candidacy for president. After winning a closely fought contest against New York Senator and former First Lady Hillary Rodham Clinton for the Democratic nomination, Obama handily defeated Senator John McCain of Arizona, the Republican nominee for president, in the general election.",
+    "years_served": 8,
+    "number": 44,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/44_barack_obama.jpg"
+  },
+  {
+    "name": "Donald Trump",
+    "party": "Republican",
+    "description": "Donald Trump at the age of 70 won his first bid for public office, to be elected the 45th president of the United States, in an upset victory on November 8, 2016. He is the fifth US president to take office despite losing the popular vote, having prevailed in Electoral College votes over Democrat Hillary Clinton. A real estate mogul and reality television star, Trump is the first president without previous service in either elective office or the military, as well as the oldest and among the richest to take office. He holds another distinction as well: Trump took office on January 20, 2017, with the lowest public approval ratings of any president since polling began after his campaign and transition were dogged with allegations of sexual improprieties and Russian meddling in the campaign on his behalf.",
+    "years_served": 4,
+    "number": 45,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/01/45_donald_trump-1200x1200.jpg"
+  },
+  {
+    "name": "Joseph Robinette Biden Jr.",
+    "party": "Democrat",
+    "description": "Joseph Robinette Biden Jr. was elected the 46th president of the United States after thirty-six years in the Senate and eight years as vice president. On January 20, 2021, at age 78, Biden became the oldest president in history to take oath of office. He confronted a divided nation wracked by the worst health crisis in a century with the coronavirus pandemic, a staggered economy, protests for racial justice, and internal threats to American democracy.  ",
+    "years_served": 1,
+    "number": 46,
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2021/04/P20210303AS-1901-cropped-1707x1280.jpg"
+  }
+]
