@@ -1,0 +1,46 @@
+html, * {
+  padding: 0;
+  margin: 0; 
+  box-sizing: border-box;
+}
+
+#navBar {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background-color: bisque;
+}
+
+#navBarCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+#blogs {
+  width: 60%;
+}
+
+.container {
+  display:flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+  row-gap: 1rem;
+  padding: 2rem;
+}
+
+section div{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  flex: 3 0 80%;
+  padding: 1rem;
+}
+
+section div > h1 {
+  padding: 1rem;
+}
