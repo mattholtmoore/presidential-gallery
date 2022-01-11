@@ -1,13 +1,39 @@
 const router = require('express').Router();
 const { President } = require('../models');
 
+const sanatize = (value) => {
+  return JSON.parse(JSON.stringify(value));
+};
+
+
 router.get('/', async (req, res) => {
 
-const allBasicPresData = await President.findAll({});
+  const presidentData = await President.findAll({});
 
-const basicPresData = allBasicPresData.map((presData) => presData.get({ plain: true }));
+  const presidents = presidentData.map((presData) => presData.get({ plain: true }));
 
-res.render('homepage', { basicPresData });
+  res.render('homepage', { presidents });
 });
+
+router.post('/search', async (req, res) => {
+  try {
+    const dbPresData = await President.findOne({ where: { name: req.body.searchTerm } });
+    const pres = sanatize(dbPresData)
+    res.json(pres);
+  } catch (err) {
+    res.status(500).json(err);
+  };
+});
+
+router.get('/president/:id', async (req, res) => {
+  try{
+    const dbPresData = await President.findByPk(req.params.id);
+    const pres = sanatize(dbPresData)
+
+    res.render('president', {pres});
+  }catch (err) {
+    res.status(500).json(err);
+  }
+})
 
 module.exports = router;

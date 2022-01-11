@@ -11,12 +11,23 @@
 
 <body>
   <nav id="navBar">
-      <span>
-        <h1 id="navTitle">Presidential Database</h1>
-      </span>
+    <div>
+      <h1 id="navTitle">Presidential Database</h1>
+    </div>
+    <div class="searchBar">
+      <form>
+        <input name="color" id="input" list="presData" />
+      </form>
+      <datalist id="presData">
+        {{#each presidents}}
+        <option>{{name}}</option>
+        {{/each}}
+      </datalist>
+      <button id="button">Search</button>
     </div>
   </nav>
-<div id="mainContainer">{{{body}}}</div>
+  <div id="{{#if pres}}mainContainerSingle{{else}}mainContainerMultiple{{/if}}">{{{body}}}</div>
+  <script src="/js/search.js"></script>
 </body>
 
 </html>
