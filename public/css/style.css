@@ -2,45 +2,89 @@ html, * {
   padding: 0;
   margin: 0; 
   box-sizing: border-box;
+  color: var(--text);
+}
+
+:root {
+  --main: #70798C;
+  --secondary: #A99985;
+  --offset: #DAD2BC;
+  --text: #252323;
+}
+
+body {
+  min-width: fit-content;
 }
 
 #navBar {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 1.5rem;
-  margin-bottom: 2rem;
-  background-color: bisque;
+  background-color: var(--secondary)
 }
 
-#navBarCenter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  max-width: 1180px;
-  margin: 0 auto;
+#navTitle {
+  font-size: 3rem;
 }
 
-#blogs {
-  width: 60%;
-}
-
-.container {
-  display:flex;
-  flex-flow: row wrap;
-  align-content: space-around;
-  row-gap: 1rem;
-  padding: 2rem;
-}
-
-section div{
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  flex: 3 0 80%;
+#mainContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: min-content;
+  row-gap: 2rem;
+  column-gap: 2rem;
   padding: 1rem;
+  background-color: var(--main);
 }
 
-section div > h1 {
+@media screen and (max-width: 812px) {
+  #mainContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 400px) {
+  #mainContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+#image {
+  grid-area: image;
+  border-radius: 1rem;
+  max-width: 21rem;
+  max-height: 21rem;
+}
+
+#name {
+  grid-area: name;
+  height: min-content;
+}
+
+#number {
+  grid-area: number;
+  height: min-content;
+}
+
+#description {
+  grid-area: description;
+}
+
+#party {
+  grid-area: party;
+}
+
+#years {
+  grid-area: years;
+  align-self: end;
+}
+
+#presContainer {
+  display: grid;
+  grid-template-rows: repeat(6, min-content);
+  justify-items: center;
+  row-gap: 1rem;
+  background-color: var(--offset);
+  border-radius: 2rem;
   padding: 1rem;
 }
