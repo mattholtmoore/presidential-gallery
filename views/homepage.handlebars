@@ -1,12 +1,22 @@
 {{#each basicPresData}}
-<section class="container">
-<div class="divOne">
-  <h1 class="title">{{name}}</h1>
-  <h1 class="image">{{party}}</h1>
-  <h1 class="image">{{{description}}}</h1>
-  <h1 class="image">{{years_served}}</h1>
-  <h1 class="image">{{number}}</h1>
-  <h1 class="image">{{image}}</h1>
-</div>
+<section id="presContainer">
+  <div>
+  <img id="image" src="{{image}}" alt="President image">
+  </div>
+  <div>
+  <h1 id="name">{{name}}</h1>
+  </div>
+  <div>
+  <h1 id="number">President: {{number}}</h1>
+  </div>
+  <div>
+  <h1 id="party">Party: {{party}}</h1>
+  </div>
+  <div>
+  <h1 id="years">Years Served: {{years_served}}</h1>
+  </div>
+  <div>
+  <h1 id="description">{{description}}</h1>
+  </div>
 </section>
 {{/each}}
