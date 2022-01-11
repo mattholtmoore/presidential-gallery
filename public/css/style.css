@@ -63,15 +63,9 @@ button{
   min-height: 100vh;
 }
 
-@media screen and (max-width: 812px) {
-  #mainContainer {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-@media screen and (max-width: 400px) {
-  #mainContainer {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.login-page {
+  display: flex;
+  flex-direction: column;
 }
 
 #image {
@@ -112,4 +106,15 @@ button{
   background-color: var(--secondary);
   border-radius: .5rem;
   padding: 1rem;
+}
+
+@media screen and (max-width: 812px) {
+  #mainContainerMultiple {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 400px) {
+  #mainContainerMultiple {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

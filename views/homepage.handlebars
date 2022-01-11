@@ -1,22 +1,24 @@
-{{#each presidents}}
-<section id="presContainer">
-  <div>
-  <img id="image" src="{{image}}" alt="President image">
-  </div>
-  <div>
-  <h1 id="name">{{name}}</h1>
-  </div>
-  <div>
-  <h1 id="number">President: {{number}}</h1>
-  </div>
-  <div>
-  <h1 id="party">Party: {{party}}</h1>
-  </div>
-  <div>
-  <h1 id="years">Years Served: {{years_served}}</h1>
-  </div>
-  <div>
-  <h1 id="description">{{description}}</h1>
-  </div>
-</section>
-{{/each}}
+<div id="mainContainerMultiple">
+  {{#each presidents}}
+  <section id="presContainer">
+    <div>
+    <img id="image" src="{{image}}" alt="President image">
+    </div>
+    <div>
+    <h1 id="name">{{name}}</h1>
+    </div>
+    <div>
+    <h1 id="number">President: {{number}}</h1>
+    </div>
+    <div>
+    <h1 id="party">Party: {{party}}</h1>
+    </div>
+    <div>
+    <h1 id="years">Years Served: {{years_served}}</h1>
+    </div>
+    <div>
+    <h1 id="description">{{description}}</h1>
+    </div>
+  </section>
+  {{/each}}
+</div>

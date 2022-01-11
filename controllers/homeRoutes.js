@@ -15,6 +15,14 @@ router.get('/', async (req, res) => {
   res.render('homepage', { presidents });
 });
 
+router.get('/login', async (req, res) => {
+    res.render('login');
+});
+
+router.get('/signup', async (req, res) => {
+    res.render('signup');
+});
+
 router.post('/search', async (req, res) => {
   try {
     const dbPresData = await President.findOne({ where: { name: req.body.searchTerm } });
