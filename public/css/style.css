@@ -6,8 +6,8 @@ html, * {
 }
 
 :root {
-  --main: #70798C;
-  --secondary: #A99985;
+  --main: #999FAD;
+  --secondary: #D2D4DB;
   --offset: #DAD2BC;
   --text: #252323;
 }
@@ -18,24 +18,49 @@ body {
 
 #navBar {
   display: flex;
+  flex-flow: column wrap;
   align-items: center;
   justify-content: center;
   padding: 1.5rem;
-  background-color: var(--secondary)
+  background-color: var(--main)
+}
+
+input{
+  padding: .3rem;
+  border-radius: .3rem;
+}
+
+button{
+  padding: .2rem;
+  border-radius: .3rem;
 }
 
 #navTitle {
+  flex-basis: 100%;
   font-size: 3rem;
 }
 
-#mainContainer {
+#mainContainerMultiple {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: min-content;
+  justify-items: center;
   row-gap: 2rem;
   column-gap: 2rem;
   padding: 1rem;
   background-color: var(--main);
+}
+
+#mainContainerSingle {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: min-content;
+  justify-items: center;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  padding: 5rem 15rem;
+  background-color: var(--main);
+  min-height: 100vh;
 }
 
 @media screen and (max-width: 812px) {
@@ -51,7 +76,7 @@ body {
 
 #image {
   grid-area: image;
-  border-radius: 1rem;
+  border-radius: .5rem;
   max-width: 21rem;
   max-height: 21rem;
 }
@@ -84,7 +109,7 @@ body {
   grid-template-rows: repeat(6, min-content);
   justify-items: center;
   row-gap: 1rem;
-  background-color: var(--offset);
-  border-radius: 2rem;
+  background-color: var(--secondary);
+  border-radius: .5rem;
   padding: 1rem;
 }
