@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const { User } = require('../../models');
 
-const loginUser = async (userId) => {
+const loginUser = async (req, userId) => {
     await req.session.save(() => {
         req.session.user_id = userId;
         req.session.logged_in = true;
@@ -19,12 +19,12 @@ router.post('/signup', async (req, res) => {
 
     try {
     // check if there is an email or password
-    if (!email || !password) {
-        return res.status(406).json({ message: 'A email and password must be provided!' });
+    if (!name || !email || !password) {
+        return res.status(406).json({ message: 'A name, email and password must be provided!' });
     }
 
     // 1.check if users email is in the db
-    const existingUser = await User.findOne({ where: email });
+    const existingUser = await User.findOne({ where: { email } });
 
     // 2. if it is present, return an error message
     if (existingUser) {
@@ -32,17 +32,20 @@ router.post('/signup', async (req, res) => {
     }
 
     // 3. Create user 
-    const userData = await User.create({ name, email, password });
-
+    const userData = await User.create({
+        name, 
+        email,
+        password
+    });
 
     // 4. add the user_id and logged_in variables to the req.session (login in user globally using session variables)
-    loginUser(userData.id);
+    loginUser(req, userData.id);
 
     // 5. return the user in the db with the correct email and password along an success message
-    return res.status(204).json({ user: userData, message: 'You are successfully signed up!' });
+    return res.status(201).json({ user: userData, message: 'You are successfully signed up!' });
 
     } catch (err) {
-        return res.status(400).json({ message: 'Something went wrong. Please try again later.' });
+        return res.status(400).json({ message: err });
     }
 });
 
@@ -71,7 +74,7 @@ router.post('/login', async (req, res) => {
         } 
 
         // 5. add the user_id and logged_in variables to the req.session (login in user globally using session variables)
-        loginUser(userData.id);
+        loginUser(req, userData.id);
 
         // 6. return the user in the db with the correct email and password along an success message
         res.status(202).json({ user: userData, message: 'You are successfully logged in!' });
@@ -82,10 +85,8 @@ router.post('/login', async (req, res) => {
 
 
 router.post('/logout', async (req, res) => {
-    // 1. remove all 
+    // 1. remove all session data
     req.session.destroy();
-
-    console.log('req.session.user_id', req.session.user_id,'req.session.logged_in', req.session.logged_in);
 
     return res.status(204).json({ message: 'You are successfully logged out!' });
 });
