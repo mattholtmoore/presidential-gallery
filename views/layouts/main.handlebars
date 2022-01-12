@@ -30,13 +30,16 @@
       </datalist>
       <button id="button" class="navBtn">Search</button>
       {{#if loggedIn}}
-      <button id="logButton">logout</button>
+      <button id="logoutButton">logout</button>
       {{else}}
       <a href="/login"><button id="logButton" class="navBtn">login</button></a>
       {{/if}}
     </div>
   </nav>
   {{{body}}}
+  {{#if loggedIn}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
   <script src="/js/search.js"></script>
 </body>
 
