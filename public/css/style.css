@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Luxurious+Roman&display=swap');
 
+* {
+  font-family: 'Lora', serif;
+}
+
 html, * {
   padding: 0;
   margin: 0; 
@@ -33,10 +37,11 @@ body {
   font-size: 5rem;
 }
 
-input{
+.search-bar {
   padding: .3rem 2rem;
   border-radius: .3rem;
   margin-bottom: .3rem;
+  width: 100%;
 }
 
 .navBtn{
@@ -59,7 +64,6 @@ a {
 
 #navTitle {
   /* font-family: 'Luxurious Roman', cursive; */
-  font-family: 'Lora', serif;
   flex-basis: 100%;
   font-size: 3rem;
   cursor: pointer;
@@ -102,7 +106,6 @@ a {
 
 #name {
   grid-area: name;
-  font-family: 'Lora', serif;
   font-size: 2rem;
   height: min-content;
   border-bottom: .1rem solid var(--text);
@@ -115,7 +118,6 @@ a {
 
 #description {
   grid-area: description;
-  font-family: 'Lora', serif;
   padding-top: 1.5rem;
   border-top: .1rem solid var(--text);
 }
@@ -189,7 +191,7 @@ a {
   background-color: var(--main);
 }
 .form-group .form-submit-btn:hover {
-  background-color: var(--secondary);
+  color: var(--secondary);
 }
 
 @media screen and (max-width: 812px) {
