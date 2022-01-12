@@ -145,7 +145,7 @@ a {
 }
 
 .login-page, .signup-page {
-  background-color: var(--offset);
+  background-color: var(--secondary);
   min-height: 100vh;
   padding: 1rem 10rem;
 }
@@ -153,6 +153,11 @@ a {
 .login-page .page-header, .signup-page .page-header {
   text-align: center;
   font-size: 2rem;
+}
+
+.login-page .login-form, .signup-page .signup-form {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .form-group {
@@ -181,6 +186,7 @@ a {
   border: none;
   font-size: 1rem;
   margin-top: 1.5rem;
+  background-color: var(--main);
 }
 .form-group .form-submit-btn:hover {
   background-color: var(--secondary);
