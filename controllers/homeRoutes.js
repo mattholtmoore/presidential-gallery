@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const { President } = require('../models');
+const withAuth = require('../utils/auth');
 
 const sanatize = (value) => {
   return JSON.parse(JSON.stringify(value));
@@ -34,7 +35,7 @@ router.post('/search', async (req, res) => {
   };
 });
 
-router.get('/president/:id', async (req, res) => {
+router.get('/president/:id', withAuth, async (req, res) => {
   try{
     const dbPresData = await President.findByPk(req.params.id);
     const pres = sanatize(dbPresData)
