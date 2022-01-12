@@ -35,10 +35,11 @@ router.post('/signup', async (req, res) => {
         req.session.save(() => {
             req.session.user_id = userData.id;
             req.session.logged_in = true;
-            return res.status(201).json({ user: userData, message: 'You are successfully signed up!' });
+
+            // 5. return the user in the db with the correct email and password along an success message
+            res.status(201).json({ user: userData, message: 'You are successfully signed up!' });
         });
 
-        // 5. return the user in the db with the correct email and password along an success message
         
 
     } catch (err) {
@@ -77,11 +78,10 @@ router.post('/login', async (req, res) => {
         req.session.save(() => {
             req.session.user_id = userData.id;
             req.session.logged_in = true;
+
+            // 6. return the user in the db with the correct email and password along an success message
             res.status(202).json({ user: userData, message: 'You are successfully logged in!'});
         });
-
-
-        // 6. return the user in the db with the correct email and password along an success message
     } catch (err) {
         return res.status(400).json({ message: 'Something went wrong. Please try again later.' });
     }
@@ -90,8 +90,6 @@ router.post('/login', async (req, res) => {
 
 router.post('/logout', async (req, res) => {
     // 1. remove all session data
-
-    console.log('logout', req.session)
     req.session.destroy();
 
     return res.status(204).json({ message: 'You are successfully logged out!' });
