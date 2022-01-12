@@ -109,6 +109,11 @@ button{
   padding: 1rem 10rem;
 }
 
+.login-page .page-header, .signup-page .page-header {
+  text-align: center;
+  font-size: 2rem;
+}
+
 .form-group {
   display: flex;
   flex-direction: column;
