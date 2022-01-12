@@ -12,7 +12,8 @@ router.get('/', async (req, res) => {
 
   const presidents = presidentData.map((presData) => presData.get({ plain: true }));
 
-  res.render('homepage', { presidents });
+
+  res.render('homepage', { presidents , loggedIn: req.session.logged_in });
 });
 
 router.get('/login', async (req, res) => {

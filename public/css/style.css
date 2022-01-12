@@ -13,6 +13,7 @@ html, * {
   --secondary: #D2D4DB;
   --offset: #DAD2BC;
   --text: #252323;
+  --shadow: #25232399;
 }
 
 body {
@@ -20,8 +21,6 @@ body {
 }
 
 #navBar {
-  font-family: 'Luxurious Roman', cursive;
-  font-family: 'Lora', serif;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -40,7 +39,7 @@ input{
   margin-bottom: .3rem;
 }
 
-button{
+.navBtn{
   padding: .2rem;
   border-radius: .3rem;
   margin: 0 2rem;
@@ -49,14 +48,26 @@ button{
   transition: 1s background-color;
 }
 
-button:hover{
+.navBtn:hover{
   background-color: var(--text);
   color: var(--secondary);
 }
 
+a {
+  text-decoration: none;
+}
+
 #navTitle {
+  /* font-family: 'Luxurious Roman', cursive; */
+  font-family: 'Lora', serif;
   flex-basis: 100%;
   font-size: 3rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#navBar > div > a {
+
 }
 
 #mainContainerMultiple {
@@ -85,8 +96,8 @@ button:hover{
 #image {
   grid-area: image;
   border-radius: .5rem;
-  max-width: 21rem;
-  max-height: 21rem;
+  width: 100%;
+  height:auto;
 }
 
 #name {
@@ -124,13 +135,13 @@ button:hover{
   grid-template-rows: repeat(6, min-content);
   justify-items: center;
   border-width: .1rem;
-  border-color: var(--text);
+  border-color: var(--shadow);
   border-style: solid;
   row-gap: 1rem;
   background-color: var(--secondary);
   border-radius: .5rem;
   padding: 1rem;
-  box-shadow: .2rem .2em 1rem var(--text)
+  box-shadow: .2rem .6rem 1rem var(--shadow)
 }
 
 .login-page, .signup-page {
