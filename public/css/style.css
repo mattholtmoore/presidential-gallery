@@ -37,10 +37,11 @@ body {
   font-size: 5rem;
 }
 
-input{
+.search-bar {
   padding: .3rem 2rem;
   border-radius: .3rem;
   margin-bottom: .3rem;
+  width: 100%;
 }
 
 .navBtn{
