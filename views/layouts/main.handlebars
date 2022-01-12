@@ -11,15 +11,13 @@
     href="https://fonts.googleapis.com/css2?family=Lora&family=Luxurious+Roman&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
-  <a href="http://localhost:3001/">
     <title>Presidential Database</title>
-  </a>
 </head>
 
 <body>
   <nav id="navBar">
     <div>
-      <h1 id="navTitle">Presidential Database</h1>
+      <a href="/"><h1 id="navTitle">Presidential Database</h1></a>
     </div>
     <div class="searchBar">
       <form>
@@ -30,8 +28,12 @@
         <option>{{name}}</option>
         {{/each}}
       </datalist>
-      <button id="button">Search</button>
-      <button id="logButton">login</button>
+      <button id="button" class="navBtn">Search</button>
+      {{#if loggedIn}}
+      <button id="logButton">logout</button>
+      {{else}}
+      <a href="/login"><button id="logButton" class="navBtn">login</button></a>
+      {{/if}}
     </div>
   </nav>
   {{{body}}}
