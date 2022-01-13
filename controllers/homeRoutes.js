@@ -14,7 +14,7 @@ router.get('/', async (req, res) => {
   const presidents = presidentData.map((presData) => presData.get({ plain: true }));
 
 
-  res.render('homepage', { presidents , loggedIn: req.session.logged_in });
+  res.render('homepage', { presidents, loggedIn: req.session.logged_in });
 });
 
 router.get('/login', async (req, res) => {
@@ -40,7 +40,10 @@ router.get('/president/:id', withAuth, async (req, res) => {
     const dbPresData = await President.findByPk(req.params.id);
     const pres = sanatize(dbPresData)
 
-    res.render('president', {pres});
+    const presidentData = await President.findAll({});
+    const presidents = presidentData.map((presData) => presData.get({ plain: true }));
+
+    res.render('president', {pres, presidents});
   }catch (err) {
     res.status(500).json(err);
   }
