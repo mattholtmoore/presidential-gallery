@@ -1,22 +1,24 @@
 <div id="mainContainerSingle">
-  <section id="presContainer">
-    <div>
-    <img id="image" src="{{pres.image}}" alt="President image">
-    </div>
-    <div>
-    <h2 id="name">{{pres.name}}</h2>
-    </div>
-    <div>
-    <h2 id="number">{{ordinal pres.number}} President</h2>
-    </div>
-    <div>
-    <h2 id="party">{{pres.party}}</h2>
-    </div>
-    <div>
-    <h2 id="years">Served {{pres.years_served}} years</h2>
-    </div>
-    <div>
-    <h2 id="description">{{pres.description}}</h2>
+  <section id="singlePresContainer">
+      <div>
+        <img id="image" src="{{pres.image}}" alt="President image">
+      </div>
+    <div class="subContainer">
+      <div>
+        <h2 id="name">{{pres.name}}</h2>
+      </div>
+      <div>
+        <h2 id="number">{{ordinal pres.number}} President</h2>
+      </div>
+      <div>
+        <h2 id="party">{{pres.party}}</h2>
+      </div>
+      <div>
+        <h2 id="years">Served {{pres.years_served}} years</h2>
+      </div>
+      <div>
+        <h2 id="description">{{pres.description}}</h2>
+      </div>
     </div>
   </section>
 </div>
