@@ -74,10 +74,6 @@ a {
   text-decoration: none;
 }
 
-#navBar > div > a {
-
-}
-
 #mainContainerMultiple {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -149,6 +145,20 @@ a {
   padding: 1rem;
   box-shadow: .2rem .6rem 1rem var(--shadow)
 }
+#singlePresContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  border-width: .1rem;
+  border-color: var(--shadow);
+  border-style: solid;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  background-color: var(--secondary);
+  border-radius: .5rem;
+  padding: 1rem;
+  box-shadow: .2rem .6rem 1rem var(--shadow);
+}
 
 .login-page, .signup-page {
   background-color: var(--secondary);
@@ -199,6 +209,17 @@ a {
   color: var(--secondary);
 }
 
+
+
+@media screen and (max-width: 1200px) {
+  #mainContainerSingle {
+    padding: 5rem 10rem;
+  }
+  #singlePresContainer {
+    grid-template-columns: 1fr;
+}
+}
+
 @media screen and (max-width: 812px) {
   #mainContainerMultiple {
     grid-template-columns: repeat(3, 1fr);
@@ -206,12 +227,18 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  #mainContainerSingle {
+    padding: 5rem 8rem;
+  }
   .login-page, .signup-page {
     padding: 1rem 5rem;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
+  #mainContainerSingle {
+    padding: 5rem 2rem;
+  }
   #mainContainerMultiple {
     grid-template-columns: repeat(1, 1fr);
   }
