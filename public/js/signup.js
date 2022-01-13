@@ -13,6 +13,7 @@ const signup = async (event) => {
     });
 
     if (response.ok) {
+      await response.json();
       document.location.replace('/');
     } else {
       alert('Failed to sign in!');
