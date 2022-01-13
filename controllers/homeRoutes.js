@@ -9,7 +9,11 @@ const sanatize = (value) => {
 
 router.get('/', async (req, res) => {
 
-  const presidentData = await President.findAll({});
+  const presidentData = await President.findAll({
+    order: [
+        ['number', 'ASC'],
+    ]
+  });
 
   const presidents = presidentData.map((presData) => presData.get({ plain: true }));
 
