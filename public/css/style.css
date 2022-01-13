@@ -37,6 +37,10 @@ body {
   font-size: 5rem;
 }
 
+#navBar .search-bar-container form {
+  width: 350px;
+}
+
 .search-bar {
   padding: .3rem 2rem;
   border-radius: .3rem;
@@ -181,6 +185,7 @@ a {
   margin-bottom: 10px;
   border: 0;
   line-height: 1.5rem;
+  padding: 0.3rem 1rem;
 }
 
 .form-group .form-submit-btn {
