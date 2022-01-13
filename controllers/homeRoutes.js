@@ -43,7 +43,7 @@ router.get('/president/:id', withAuth, async (req, res) => {
     const presidentData = await President.findAll({});
     const presidents = presidentData.map((presData) => presData.get({ plain: true }));
 
-    res.render('president', {pres, presidents});
+    res.render('president', {pres, presidents, loggedIn: req.session.logged_in});
   }catch (err) {
     res.status(500).json(err);
   }
