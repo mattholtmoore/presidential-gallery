@@ -14,7 +14,7 @@
 ***
 
 ## Description
-This is a full-stack application for a presendential gallery where a user can sign up and login using their chosen email and password. A user who is interested in information about American presidents can visit this application and be presented with interesting details about them. The motivation for this application is a desire to understand facts about previous and current American presidents.
+This is a full-stack application for a presidential gallery where a user can sign up and login using their chosen email and password. A user who is interested in information about American presidents can visit this application and be presented with interesting details about them. The motivation for this application is a desire to understand facts about previous and current American presidents.
 
 ***
 
@@ -36,7 +36,7 @@ Start server by running the `nodemon` command.
 ***
 
 ## Links
-[Project Link to GitHub](https://github.com/mattholtmoore/presendential-gallery)  
+[Project Link to GitHub](https://github.com/mattholtmoore/presidential-gallery)  
 [Link to Deployment](https://floating-chamber-62136.herokuapp.com/)  
 
 ***
